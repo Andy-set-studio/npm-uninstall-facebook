@@ -1,0 +1,174 @@
+/* Mini reset */
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dd,
+header,
+nav,
+article,
+section,
+aside,
+figure,
+figcaption,
+footer,
+dl,
+dd,
+dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  /* Hide persistent scrollbar in IE (10/11) and Edge */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* end mini reset */
+
+/* Core, global styles */
+html {
+  background: hsl(0, 0%, 96%);
+}
+
+body {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0, 10%);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+a:not([class]) {
+  color: currentColor;
+  text-decoration-skip-ink: auto;
+}
+
+a:not([class]):hover {
+  text-decoration: none;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 0;
+  position: relative;
+  top: -0.2rem;
+}
+
+abbr {
+  text-decoration: none;
+  border: none;
+}
+
+header[role='banner'] {
+  border-bottom: 2px solid hsl(287, 35%, 58%);
+  padding: 0 0 2rem 0;
+  margin: 0 0 3rem 0;
+  max-width: 60ch;
+}
+
+header[role='banner'] article {
+  font-size: 1.1rem;
+}
+
+header[role='banner'] article > * + * {
+  margin-top: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.01;
+  font-weight: 900;
+  margin: 0 0 2rem 0;
+  letter-spacing: 0.02ch;
+}
+
+h2 {
+  font-size: 2.3rem;
+  line-height: 1.1;
+  margin: 0 0 0.5rem 0;
+}
+
+/* Global center wrapper */
+.wrapper {
+  max-width: 85rem;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Item */
+.item {
+  max-width: 60ch;
+}
+
+.item + .item {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 2px solid hsl(287, 35%, 58%);
+}
+
+.item h2 {
+  color: hsl(287, 35%, 38%);
+  font-weight: 900;
+}
+
+.item h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid hsl(0, 0, 75%);
+  max-width: 50ch;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: hsl(0, 0, 35%);
+}
+
+.item dt {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.item dd ~ dt {
+  margin-top: 1rem;
+}
+
+/* Fancy selection */
+::-moz-selection {
+  color: #ffffff;
+  background: rgba(51, 51, 51, 0.99);
+}
+
+::selection {
+  color: #ffffff;
+  background: rgba(51, 51, 51, 0.99);
+}
+
+footer[role='contentinfo'] {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 0.8rem;
+}

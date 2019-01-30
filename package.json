@@ -1,0 +1,24 @@
+{
+    "name": "npm-uninstall-facebook.com",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".eleventy.js",
+    "scripts": {
+        "serve": "npx eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andybelldesign/npm-uninstall-facebook.com.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/andybelldesign/npm-uninstall-facebook.com/issues"
+    },
+    "homepage": "https://github.com/andybelldesign/npm-uninstall-facebook.com#readme",
+    "dependencies": {
+        "@11ty/eleventy": "^0.7.1",
+        "html-minifier": "^3.5.21"
+    }
+}
