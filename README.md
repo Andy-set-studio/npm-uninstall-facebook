@@ -35,4 +35,4 @@ React is a _very_ popular JavaScript library that helps developers create state-
 
 ### Step four
 
-Create a pull request and after your site has been approved by an admin, it'll appear on <npm-uninstall-facebook.com>!
+Create a pull request and after your site has been approved by an admin, it'll appear on <https://npm-uninstall-facebook.com>!
