@@ -6,7 +6,7 @@ alternatives:
     link: 'https://preactjs.com/'
   - title: 'Vue'
     link: 'https://vuejs.org/'
-  - title 'Angular'
+  - title: 'Angular'
     link: 'https://angular.io/'
 ---
 
