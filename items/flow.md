@@ -6,4 +6,4 @@ alternatives:
     link: 'https://www.typescriptlang.org/'
 ---
 
-Flow adds static typing to JavaScript to improve developer productivity and code quality. Initially developed by Facebook
+Flow adds static typing to JavaScript to improve developer productivity and code quality. Initially developed by Facebook.
