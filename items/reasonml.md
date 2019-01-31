@@ -2,6 +2,8 @@
 title: 'ReasonML'
 slug: 'reasonml'
 alternatives:
+  - title: 'BuckleScript'
+    link: 'https://bucklescript.github.io/'
   - title: 'OCaml'
     link: 'http://ocaml.org/'
 ---
