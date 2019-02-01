@@ -6,6 +6,8 @@ alternatives:
     link: 'https://11ty.io'
   - title: 'Gridsome (Vue.js)'
     link: 'https://gridsome.org'
+  - title: 'Nuxt.js (Vue.js)'
+    link: 'https://nuxtjs.org'
   - title: 'VuePress'
     link: 'https://vuepress.vuejs.org/'
   - title: 'Hugo'
