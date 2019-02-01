@@ -4,6 +4,8 @@ slug: 'react'
 alternatives:
   - title: 'Preact'
     link: 'https://preactjs.com/'
+  - title: 'Svelte'
+    link: 'https://svelte.technology'
   - title: 'Vue'
     link: 'https://vuejs.org/'
 ---
