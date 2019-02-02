@@ -2,6 +2,8 @@
 title: 'WhatsApp Messenger'
 slug: 'whatsapp'
 alternatives:
+  - title: 'Skype'
+    link: 'https://www.skype.com'
   - title: 'Telegram Messenger'
     link: 'https://telegram.org/'
   - title: 'Signal'
