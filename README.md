@@ -1,5 +1,10 @@
 # NPM Uninstall Facebook
-Facebook continue to make themselves impossible to support with their [complete](https://techcrunch.com/2019/01/29/facebook-project-atlas/) [lack](https://www.theguardian.com/technology/2018/aug/16/facebook-myanmar-failure-blundering-toddler) [of](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) [ethics](https://www.businessinsider.com/facebook-all-social-network-scandals-2018-12#january-2018-facebook-is-slammed-by-george-soros-1). Unfortunately, we have sewn a lot of their technologies and products into our lives. The aim of this site is to help you find alternatives to the technologies and products that Facebook make, and also technologies that rely on Facebook’s work.
+
+Facebook’s relentless [abuse](https://techcrunch.com/2019/01/29/facebook-project-atlas/) [of](https://www.theguardian.com/technology/2018/aug/16/facebook-myanmar-failure-blundering-toddler) [their](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) [position](https://www.businessinsider.com/facebook-all-social-network-scandals-2018-12#january-2018-facebook-is-slammed-by-george-soros-1) is making them difficult to support. Unfortunately, their products and open source projects have a large impact on our everyday lives.
+
+Some people understandably, want to distance themselves as _far as possible_ from Facebook, so this site provides alternatives to well known Facebook products, or products that are heavily reliant on Facebook technologies. 
+
+It is not a call to boycott Facebook or their open source contributions. People are of course, welcome to make those decisions on their own. 
 
 
 ## Contribute
