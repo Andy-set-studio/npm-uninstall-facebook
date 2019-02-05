@@ -39,6 +39,7 @@ dt {
 html {
   /* Hide persistent scrollbar in IE (10/11) and Edge */
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  scroll-behavior: smooth;
 }
 
 ul,
