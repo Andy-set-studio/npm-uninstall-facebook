@@ -156,6 +156,55 @@ h2 {
   margin-top: 1rem;
 }
 
+/* Site header styles */
+.site-head__skip-section {
+  display: flex;
+  margin: 0 0 1rem 0;
+  padding: 0 0 1rem 0;
+}
+
+.site-head__nav {
+  max-width: 32rem;
+}
+
+.site-head__skip-label {
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+
+.site-head__skip-links {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.site-head__skip-links > * {
+  margin: 0.5rem 0 0 0.5rem;
+  white-space: nowrap;
+}
+
+.site-head__skip-links a {
+  display: inline-block;
+  border: 1px solid hsl(287, 35%, 38%);
+  border-radius: 0.5em;
+  padding: 0.1em 0.4em;
+  text-decoration: none;
+}
+
+.site-head__skip-links a:hover,
+.site-head__skip-links a:focus {
+  background: hsl(287, 35%, 38%);
+  color: #ffffff;
+}
+
+footer[role='contentinfo'] {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 0.8rem;
+}
+
 /* Fancy selection */
 ::-moz-selection {
   color: #ffffff;
@@ -165,10 +214,4 @@ h2 {
 ::selection {
   color: #ffffff;
   background: rgba(51, 51, 51, 0.99);
-}
-
-footer[role='contentinfo'] {
-  text-align: center;
-  padding-top: 4rem;
-  font-size: 0.8rem;
 }

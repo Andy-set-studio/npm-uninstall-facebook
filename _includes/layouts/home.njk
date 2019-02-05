@@ -3,25 +3,39 @@
   
   <header role="banner" class="site-head">
     <h1>{{ title }}</h1>
+    <div class="site-head__skip-section">
+      <p id="skip-label" class="site-head__skip-label">Skip to:</p>
+      <nav class="site-head__nav">
+        <ul aria-labeled-by="skip-label" class="site-head__skip-links">
+        {% for item in collections.items %}
+          {% if item.data.alternatives %}
+            <li>
+              <a href="#{{ item.data.slug }}">{{ item.data.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
     <article>
       {{ content | safe }}
     </article>
   </header>
   <main>
-    {% for item in collections.items %}
-        {% if item.data.alternatives %}
-            <article class="item" id="{{ item.data.slug }}">
-                <h2>{{ item.data.title }}</h2>
-                <p>{{ item.templateContent | safe }}</p>
-                <h3>Alternatives</h3>
-                <dl>
-                    {% for alternative in item.data.alternatives %}
-                        <dt>{{ alternative.title }}</dt>
-                        <dd><a href="{{ alternative.link }}">{{ alternative.link }}</a></dd>
-                    {% endfor %}
-                </dl>
-            </article>
-        {% endif %}
-    {% endfor %}
+  {% for item in collections.items %}
+    {% if item.data.alternatives %}
+      <article class="item" id="{{ item.data.slug }}">
+        <h2>{{ item.data.title }}</h2>
+        <p>{{ item.templateContent | safe }}</p>
+        <h3>Alternatives</h3>
+        <dl>
+          {% for alternative in item.data.alternatives %}
+            <dt>{{ alternative.title }}</dt>
+            <dd><a href="{{ alternative.link }}">{{ alternative.link }}</a></dd>
+          {% endfor %}
+        </dl>
+      </article>
+    {% endif %}
+  {% endfor %}
   </main>
 {% endblock %}
