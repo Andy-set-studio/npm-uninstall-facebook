@@ -12,6 +12,8 @@ alternatives:
     link: 'https://mochajs.org/'
   - title: 'Chai'
     link: 'https://www.chaijs.com/'
+  - title: 'Japa'
+    link: 'https://github.com/thetutlage/japa'
 ---
 
 Jest is a Javascript Testing Framework created by Facebook
