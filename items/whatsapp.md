@@ -12,6 +12,9 @@ alternatives:
     link: 'https://dino.im/'
   - title: 'Conversations'
     link: 'https://conversations.im/'
+  - title: 'Wire'
+    link: 'https://wire.com'
 ---
 
 WhatsApp Messenger is a freeware and cross-platform messaging and Voice over IP (VoIP) service owned by Facebook.
+A collection of secure messaging apps with helpful comparisons can be found [here](https://www.securemessagingapps.com).
