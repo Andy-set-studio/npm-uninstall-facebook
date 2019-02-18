@@ -10,6 +10,10 @@ alternatives:
     link: 'https://vuepress.vuejs.org/'
   - title: 'Hugo'
     link: 'https://gohugo.io/'
+  - title: 'Jekyll'
+    link: 'https://jekyllrb.com/'
+  - title: 'Pelican'
+    link: 'https://blog.getpelican.com/'
 ---
 
 Gatsby is a static site generator that relies _heavily_ on [React](#react).
