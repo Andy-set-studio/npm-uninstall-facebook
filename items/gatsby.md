@@ -14,6 +14,8 @@ alternatives:
     link: 'https://jekyllrb.com/'
   - title: 'Pelican'
     link: 'https://blog.getpelican.com/'
+  - title: 'Gridsome'
+    link: 'https://gridsome.org/'
 ---
 
 Gatsby is a static site generator that relies _heavily_ on [React](#react).
