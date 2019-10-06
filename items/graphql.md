@@ -1,5 +1,5 @@
 ---
-title: 'GraphQl'
+title: 'GraphQL'
 slug: 'graphql'
 alternatives:
   - title: 'JSON:API'

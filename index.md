@@ -1,5 +1,5 @@
 ---
-title: 'NPM Uninstall Facebook'
+title: 'npm Uninstall Facebook'
 layout: 'layouts/home.njk'
 ---
 
