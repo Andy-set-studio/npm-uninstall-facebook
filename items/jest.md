@@ -9,9 +9,9 @@ alternatives:
   - title: 'Jasmine'
     link: 'https://jasmine.github.io/index.html'
   - title: 'Mocha'
-    link: 'https://mochajs.org/'
+    link: 'https://mochajs.org'
   - title: 'Chai'
-    link: 'https://www.chaijs.com/'
+    link: 'https://www.chaijs.com'
   - title: 'Japa'
     link: 'https://github.com/thetutlage/japa'
 ---

@@ -5,8 +5,8 @@ alternatives:
   - title: 'MobX'
     link: 'https://mobx.js.org'
   - title: 'Beedle'
-    link: 'http://beedle.hankchizljaw.io/'
+    link: 'http://beedle.hankchizljaw.io'
   - title: 'Effector'
-    link: 'https://effector.now.sh/'
+    link: 'https://effector.now.sh'
 ---
 Redux is a handy tool for managing state across an application. Although Redux isn’t strictly a Facebook project, it’s very likely had a lot of Facebook resource put into its development.

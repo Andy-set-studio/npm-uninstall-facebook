@@ -7,17 +7,17 @@ alternatives:
   - title: 'Nuxt.js (Vue.js)'
     link: 'https://nuxtjs.org'
   - title: 'VuePress'
-    link: 'https://vuepress.vuejs.org/'
+    link: 'https://vuepress.vuejs.org'
   - title: 'Hugo'
-    link: 'https://gohugo.io/'
+    link: 'https://gohugo.io'
   - title: 'Jekyll'
-    link: 'https://jekyllrb.com/'
+    link: 'https://jekyllrb.com'
   - title: 'Pelican'
-    link: 'https://blog.getpelican.com/'
+    link: 'https://blog.getpelican.com'
   - title: 'Gridsome'
-    link: 'https://gridsome.org/'
+    link: 'https://gridsome.org'
   - title: 'Zola'
-    link: 'https://getzola.org/'
+    link: 'https://getzola.org'
 ---
 
 Gatsby is a static site generator that relies _heavily_ on [React](#react).
