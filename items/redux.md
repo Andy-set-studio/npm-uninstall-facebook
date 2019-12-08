@@ -8,5 +8,7 @@ alternatives:
     link: 'http://beedle.hankchizljaw.io'
   - title: 'Effector'
     link: 'https://effector.now.sh'
+  - title: 'XState'
+    link: 'https://xstate.js.org/'
 ---
 Redux is a handy tool for managing state across an application. Although Redux isn’t strictly a Facebook project, it’s very likely had a lot of Facebook resource put into its development.
