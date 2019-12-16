@@ -18,6 +18,8 @@ alternatives:
     link: 'https://gridsome.org'
   - title: 'Zola'
     link: 'https://getzola.org'
+  - title: 'Serum'
+    link: 'https://dalgona.github.io/Serum/'
 ---
 
 Gatsby is a static site generator that relies _heavily_ on [React](#react).
