@@ -6,6 +6,8 @@ alternatives:
     link: 'https://indieweb.org/microformats'
   - title: 'Schema.org'
     link: 'https://schema.org'
+  - title: 'Twitter Cards'
+    link: 'https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards'
 ---
 
 The Open Graph protocol (OGP) is an open standard developed and controlled by Facebook for expressing the primary subject of an HTML page in custom `<meta>` tags for the purpose of Facebook showing link previews;
