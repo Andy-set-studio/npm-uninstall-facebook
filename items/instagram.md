@@ -6,6 +6,8 @@ alternatives:
     link: 'https://pixelfed.social'
   - title: 'VSCO'
     link: 'https://vsco.co/feed'
+  - title: 'Flickr'
+    link: https://www.flickr.com/
     
 ---
 
