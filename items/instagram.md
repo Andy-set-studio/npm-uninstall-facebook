@@ -7,7 +7,7 @@ alternatives:
   - title: 'VSCO'
     link: 'https://vsco.co/feed'
   - title: 'Flickr'
-    link: https://www.flickr.com/
+    link: 'https://www.flickr.com/'
     
 ---
 
