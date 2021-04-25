@@ -15,7 +15,7 @@ alternatives:
   - title: 'Wire'
     link: 'https://wire.com'
   - title: 'Discord'
-    link: 'https://discordapp.com'
+    link: 'https://discord.com'
 ---
 
 WhatsApp Messenger is a freeware and cross-platform messaging and Voice over IP (VoIP) service owned by Facebook.
