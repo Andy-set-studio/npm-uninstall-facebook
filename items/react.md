@@ -5,7 +5,7 @@ alternatives:
   - title: 'Preact'
     link: 'https://preactjs.com'
   - title: 'Svelte'
-    link: 'https://svelte.technology'
+    link: 'https://svelte.dev/'
   - title: 'Vue'
     link: 'https://vuejs.org'
   - title: 'Mithril'
